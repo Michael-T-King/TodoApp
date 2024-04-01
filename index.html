@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Todo list</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="author">made by M-Tech</h1>
+        <div class="todolist">
+            <h1 class="title"> Todo app</h1>
+            <ul class="menu__list">
+                <li class="menu all" title="show all">all</li>
+                <li class="menu" title="show done">done</li>
+                <li class="menu" title="show favorites">favorites</li>
+            </ul>
+            <p class="fav__num" title="numbers of your favorites todos">0</p>
+
+            <form action="">
+                <input type="text" class="todo__input" placeholder="add your todo">
+                <button class="todo__add" title="add todo">+</button>
+            </form>
+
+            <ul class="tasks">
+            </ul>
+
+            <div class="inform__box">
+                <p class="todo__num">Tasks: <span class="donetask" title="done todos">4</span>/<span class="alltask"
+                        title="all todos">4</span></p>
+                <button class="clear__all">clear all</button>
+            </div>
+
+            <div class="loading__fraim" title="your progress">
+                <p>your progress is <span class="percent">0%</span></p>
+                <div class="loading__progress"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
